@@ -261,7 +261,7 @@ header .page-logo {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   padding-top: 30px;
-  padding-bottom: 90px;
+  padding-bottom: 30px;
 }
 
 .team-list .sub-title {
@@ -283,6 +283,8 @@ header .page-logo {
 /*========================FOOTER====================*/
 .page-footer {
   background: var(--dark-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .page-footer-container {
@@ -296,7 +298,6 @@ header .page-logo {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -308,7 +309,6 @@ header .page-logo {
   display: flex;
   flex-direction: column;
   row-gap: 9px;
-  margin-bottom: 60px;
 }
 
 .address-list a {
@@ -334,6 +334,7 @@ address .link:focus {
   display: flex;
   justify-content: center;
   gap: 8px;
+  margin-bottom: 50px;
 }
 
 .filter-btn {
@@ -344,11 +345,6 @@ address .link:focus {
   background-color: #f5f4fa;
   border-radius: 4px;
   padding: 6px 22px;
-  margin-bottom: 50px;
-}
-
-.first-filter-btn {
-  padding: 6px 25px;
 }
 
 .filter-btn:hover,
